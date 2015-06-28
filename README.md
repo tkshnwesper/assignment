@@ -4,15 +4,27 @@ How to run the programs:
 
 [This applies for all] You can either build from source or run the prebuilt version.
 
+
+
 C++:
-g++ main.cpp Encrypt.cpp -o Assignment
-./Assignment [string] [key]
+
+
+1. g++ main.cpp Encrypt.cpp -o Assignment
+2. ./Assignment [string] [key]
+
+
 
 Java:
-javac Encrypt/Main.java
-javac Encrypt/Encrypt.java
-java Encrypt.Main [string] [key]
+
+
+1. javac Encrypt/Main.java
+2. javac Encrypt/Encrypt.java
+3. java Encrypt.Main [string] [key]
+
+
 
 C#:
-mcs Assignment.cs
-mono Assignment.exe [string] [key]
+
+
+1. mcs Assignment.cs
+2. mono Assignment.exe [string] [key]
